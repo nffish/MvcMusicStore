@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+
+@model IEnumerable<MvcMusicStore.Models.Album>
+<ul>
+@foreach (Album p in Model)
+{
+    <li>@p.Title</li>
+}
+</ul>
