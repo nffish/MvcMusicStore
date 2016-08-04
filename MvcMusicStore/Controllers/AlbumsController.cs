@@ -23,7 +23,6 @@ namespace MvcMusicStore.Controllers
             {
                 albums.Add(new Album { Title = "Product " + i });
             }
-            //ViewBag.Albums = albums;
             return View(albums);
         }
 
