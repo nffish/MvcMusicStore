@@ -26,6 +26,7 @@ namespace MvcMusicStore.Controllers
             return View(albums);
         }
 
+        //GET: Albums/Edit?id=5
         public ActionResult Edit(int id = 0)
         {
             Album album = null;
